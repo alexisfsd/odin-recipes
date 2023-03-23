@@ -18,6 +18,10 @@ body {
   display: flex;
   justify-content: center;
 }
+.title.main-title img {
+  height: auto;
+  width: 40px;
+}
 
 img.img-main {
   display: block;
