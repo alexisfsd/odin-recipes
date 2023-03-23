@@ -8,6 +8,7 @@ body {
   background-color: #0F0F0F;
 }
 
+
 /* main title */
 
 .title.recipe-title {
@@ -18,6 +19,7 @@ body {
   margin-bottom: 30px;
   font-family: "Brush Script MT", sans-serif;
 }
+
 
 /* recipes images */
 
@@ -30,6 +32,7 @@ img.img-recipe {
   width: 300px;
   border-radius: 50px;
 }
+
 
 /* recipe description */
 
@@ -69,7 +72,7 @@ div.description-recipe-div {
 .ingredients-title {
   background-color: white;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 18px;
 }
 
@@ -84,4 +87,48 @@ div.description-recipe-div {
   text-align: center;
   color: green;
   font-size: 30px;
+}
+
+
+/* recipe steps */
+
+.steps-div {
+  background-color: #282828;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px;
+  border-color: yellow;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.steps-div .steps-title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.steps-div .steps-list {
+  font-size: 20px;
+  color: white;
+}
+
+.steps-div .steps-list li {
+  margin-top: 10px;
+}
+
+.steps-div .steps-list .last-step {
+  margin-bottom: 20px;
+}
+
+.steps-div p {
+  color: rgb(255, 82, 62);
+  text-align: center;
+  font-size: 23px;
 }
